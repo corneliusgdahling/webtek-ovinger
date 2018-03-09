@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>P2 Project Design - Spa Thai</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<div id='bodyDiv'>
+	<div class="first disp">
+		<div class="content_divs">
+			<h1>P2 Project Desgin for Spa Thai</h1>
+		</div>
+	</div>
+
+	<div class="disp disp2">
+		<div class="content_divs">
+			<h2>Document Details</h2>
+
+			<p>Eirik, Egil, Edvard, Simen and Cornelius<br />
+			IT2805 Oktober 13, 2015</p>
+		</div>
+	</div>
+
+	<div class="disp disp1">
+		<div class="content_divs">
+			<h2>Administrative Details</h2>
+
+			<p>Our client is Spa Thai, located in Olav Tryggvasons Gate 50 in Trondheim.
+			<br/><br/>
+			<b>Website Name:</b> Spa Thai <br />
+			<b>Contact person:</b> Suban Andestad (suban@spathai.no)<br/>
+			<b>Rolle:</b> Daglig leder</p>
+		</div>
+	</div>
+
+	<div class="disp disp2">
+		<div class="content_divs">
+			<h2>The site's purpose and goals</h2>
+
+			<p>The site’s main purpose is to attract users to go to Spa Thai to receive
+			treatment or purchase products. Therefore the site needs to highlight
+			everything a user can expect at Spa Thai. The site also needs to have a
+			professional look and feel because it reflects the business as a whole.
+			It is also vital that the users of the site has very clear access to contact
+			information because all transactions are handled in the shop at Spa Thai.</p>
+
+			<p>Their customer base consists of people from different age groups. So we have to consider that not all visitors possess the same skillset in regard to navigating a website.</p>
+
+			<p>The target audience will mainly consist of people who are looking for,
+			or want to book, spa or massage treatment. Key information for these
+			potential users are the different products/services and pricing.
+			Spa Thai also emphasizes their treatment for sore/stiff muscles which will
+			make the site relevant for people that are suffering such ailments.</p>
+
+		</div>
+	</div>
+	
+	<div class="disp disp1">
+		<div class="content_divs">
+			<h2>Navigation Structure</h2>
+
+			<p>The site’s main form of navigation will be a customised navigation bar that will have the position property “fixed”. However, using javascript, the navigation bar will be modified as the user scrolls down. The modification will make the navigation bar blend in better while scrolling to avoid it being a nuisance when the user wants to see the content on the page. The site will have a hierarchical structure to make it easy for the user to navigate.</p>
+
+			<p>Some of the pages will have a lot of info, and will be too long for scrolling only. Therefore we will need anchors, which will be modified the same way as the navigation bar. This way, the user can quickly move down to the section they want to see. The reason we use anchors instead of just making sub-pages is simply because we dont want the user to get lost and having to navigate back and fourth so much. Spa Thai has alot of information to provide, very similar information. Both our client and us agree that is feels better to have everything on one page, just like a wikipedia article, and rather be able for scroll fast up and down. 
+			</p>
+
+			<p>The picture below show our navigation structure (click to view bigger picture in new tab): 
+			</p>
+			<a target="_blank" href="bilder/nav.png"> <img id="navPic" src="bilder/nav.png" alt="Nav" />	</a>
+		</div>
+	</div>
+	<div class="disp disp2">
+		<div class="content_divs">
+			<h2>Page layout and appearance</h2>
+
+			<p>Seeing that Spa Thai is a massage parlor, one of the most important things is that the website has a calm and soothing effect on the user. The website must be inviting the user to visit Spa Thai. In order to achieve this effect, we will be using a Concrete (F2F2F2) and Black Haze (#F5F7F7) background with elements of Coriander (#CBD3BB). The user will be greeted with a slideshow of pictures that entices the user to visit Spa Thai. This slideshow will also include an option to manually sort through the images, as well as a javascript element that allows the user to click on the image and view them with increased size. Every page will have a navigation bar at the top, exactly like the one shown below.</p>
+
+			<hr />
+			<h3>Logo and menu</h3>
+
+			<p>The logo font is Bangla MN Regular. The navigation menu are represented as a horizontal list with font “[OpenSans Regular]” size 17px. The text of the navigation links will be in the color Coriander (#CBD3BB) because it enhances the text without it being too strong. The logo will be in the color Green Spring (#B9BFB7). This will make it stand out more, which is important since it is the logo and what connects the website to the business.</p>
+
+			<P>However, to highlight which page the user is currently on, we change the color of the text to Siam (#646B57) as shown below. This color will also appear when the user hovers their mouse over the links to distinguish it as a url.</p>
+				<img src="bilder/orig_header.png" class="sideImg" alt="Header" />
+<hr />
+			
+			<h3>Sub menus</h3>
+			<p>For pages that have a lot of content, a sub menu will be presented so the user can quickly navigate the page using “anchors”. These anchors are also “[OpenSans Regular]” size 15pt, color Battleship Gray (#889275). This will make it clear an easy to see without overpowering the main navigation menu.</p>
+			<img src="bilder/anchor.png" class="" alt="Anchor links" />
+<hr />
+			<h3>Menu overlay</h3>
+			<p>Using javascript, the navigation bar will be modified as the user scrolls down. The modification will make the navigation bar blend in better while scrolling to avoid it being a nuisance when the user wants to see the content on the page. We chose to use the color Green Smoke (#9EAE7D) on the background of the navbar, but the logo and links will still be the same color Coriander (#CBD3BB) as used before. Since the background color now is a lot darker than it was, the color of the active links are now a lighter color called White Flurry (#EAF6D1), instead of getting darker as it did originally.  
+			</p>	
+
+			<img src="bilder/menu_rollover.png" class="sideImg" alt="Menu rolldown" />
+
+			<hr />
+			<h3>Section colors</h3> <br />
+
+<img src="bilder/show_color.png" alt="Colors" style="height:160px; float:left; margin-right:20px; border:1px solid black">
+			<p>The content section of the website has different colors on the different paragraphs. The section on top, which is the header on all sites except the home site, will be in the color Coriander (#CB3BB). Below that the paragraphs will every other time interchange between Concrete (#F2F2F2) and Black Smoke (#F5F7F7) to make up the background color of the site. This is in order to slightly distinguish them. It also aids in creating a nice look. The body width will be 1000px wide stretching all the background colors across the page, but all the content will be centered as shown in the mockup photos in content.</p>
+<hr />
+
+<h3>Footer</h3>
+			
+
+			<p>At the bottom of every page, there will be a footer which is split into three parts. The background color is Camouflage Green (#7A8070) which surrounds three text parts. The first text part is the logo, which is exactly the same as at the top of the page; color, font, layout, etc. The next is “Kontakt”. Same Coriander (#CBD3BB) as the logo but “Kontakt” is font Century Gothic Regular 20pt and the text beneath is Arial Regular size 18pt. The last text part is “Besøk oss på facebook” with an attached Facebook logo. This text is also Arial Regular Size however 17pt instead of the previously mentioned 18. This text as well as the facebook logo has the color Green Spring (#B9BFB7). The concept of the footer can be seen below.</p>
+
+			<img src="bilder/footer.png" class="sideImg" alt="Footer" />
+
+			
+
+
+		</div>
+	</div>
+
+	<div class="disp disp1">
+		<div class="content_divs">
+			<h2>Content</h2><br />
+
+			<h3>1. Hjem - index.html</h3> 
+
+			<p>This is the first page that the user sees when they visit http://www.spathai.no/. Therefore it contains some basic information about Spa Thai such as the staff’s formal massage education. This is found under “Velkommen til vårt studio i Olav Tryggvasons gate 50”. This page will also contain the slideshow of spa/thai massage pictures mentioned in the ‘Page layout and appearance’ section’. This is where Spa Thai also will put any news or important updates. Currently their update is that the store is closed because they are away updating their massage techniques.</p>
+
+			<p> The goal of this page is to make the user feel welcome and invite them to continue browsing and/or visit Spa Thai. Earlier in assignment P1 we wrote how the goal of this site is to tempt the user to consider buying a treatment. This is accomplished by the slideshow of pictures.</p>
+
+
+			<img src="bilder/hjem.png" class="sideImg" alt="Hjem" />
+
+			<hr />
+			<h3>2. Behandlinger - treatments.html</h3>
+
+			<p>This page will contain all the information about the different services Spa Thai can provide. The user shall be able to scroll down, or use anchors to go down. The page is separated in four parts: “Massasje”, “manikyr/pedikyr”, “pakker” and “annet”.</p> 
+
+			<p>“Massasje” is all types of massages they have. It starts with the full body massages: “Tradisjonell thaimassasje”, “klassisk massasje”, “idrettsmassasje” and “aromaterapi”. After that comes the specific bodypart massages: “Fot-massasje”, “Rygg- og nakkemassasje”. Last comes “Hot stones”. </p>
+
+			<p>After the “Massasje”-section comes “Manikyr/pedikyr”. This section will only show one treatment, which is “Manikyr/pedikyr med farge”.</p>
+
+			<p>The “Pakker”-section contains information about all the package-deals they have. For now they informed us that they only have one package-deal, but will expand in the near future. This is why we made a seperate section for “Pakker” and didn’t just put it in “Massasje”. In the future it will contain all treatments longer than 90 minutes.</p>
+
+			<p>The last part of the page is “Annet”. This section will display “Ansiktsbehandling”, “Varm parafinvoks behandling med fotpleie hender og føtter” and “Badstue”.</p>
+
+			<p>The treatmentpage will have many pictures, almost one for each section. The pictures will be 461 x 296px and floated to the right and left every other time, starting with right. The mockup below shows how the first two paragraphs will look, plus our footer.</p>
+
+			<p> This page fulfills the goal of showcasing what Spa Thai has to offer. Also, with beautiful pictures attract the user to buy one of the treatments themselves </p>
+
+			<img src="bilder/behandlinger.png" class="sideImg" alt="Behandlinger mockup" />
+			<hr />
+			<h3>3. Priseliste - pricelist.html</h3>
+
+			<p>This site will contain a table with the prices of the different treatments and products. We found this table to be quite hard to make proper in the form of a mockup, but the intention is that it shall contain the same color-palette as used on the rest of the site and more room in each column than we have in the mockup.</p>
+
+			<p>Under the table of prices we also added information about appointment reservation/cancellation in addition to some general precautions. </p>
+
+			<p>The goal for “Priser” is to give the user an overview of the prices and the duration of the services Spa Thai has to offer. In addition to this, our goal is also to showcase information in regards to reservations, canceling of appointments, and basic rules. </p>
+
+			<img src="bilder/prisliste.png" class="sideImg" alt="Prisliste mockup" />
+			<hr />
+			<h3>4. Produkter - products.html</h3>
+
+			<p>This site will contain a table with the prices of the different treatments and products. We found this table to be quite hard to make proper in the form of a mockup, but the intention is that it shall contain the same color-palette as used on the rest of the site and more room in each column than we have in the mockup.</p>
+
+			<p>Under the table of prices we also added information about appointment reservation/cancellation in addition to some general precautions. </p>
+
+			<p>“Produkter” aims to attract customers to Spa Thai to buy products such as creams, oils, etc. Therefore it is vital that the page is well-presented and clear so that the user/customer does not have to search for a specific product for a long time because it might cause them to lose interest and navigate away.</p>
+
+			<img src="bilder/produkter.png" class="sideImg" alt="Produkter mockup" />
+
+			<hr />
+			<h3>5. Om oss - about.html</h3>
+			
+			<p>“Om oss” will contain a small text describing Spa thai and their practices, their address/phone, a map showing their location and a contact form.</p>
+			
+			
+			<p>We choose to include their address/phone on this site even though it’s included in the footer, because not all end users will think to look there. </p>
+
+			<p>Using javascript we will include an interactive google-map showing their location.
+			For the contact form we will we will use 2 javascript functions; one to validate the input and one to open the users mail-client containing the information entered.</p>
+
+			<p>The goal for “Om oss” is to give to show where it is located, as well as giving the user the opportunity to ask questions or give Spa Thai feedback.</p>
+
+			<img src="bilder/om_oss.png" class="sideImg" alt="Om oss mockup" />
+		</div>
+	</div>
+
+	<div class="disp disp2">
+		<div class="content_divs">
+
+		<h2>Minimal Requierments</h2>
+
+		<p>The minimum javascript requirements will be implemented as described below. The first 4 functions will be implemented with javascript without any libraries.</p>
+
+		<ul>
+		<li>
+		<b>Function1:</b> Form validation<br />
+		<b>Function name:</b> validateForm()<br />
+		<b>File:</b> js/formValidation.js<br />
+		<p>This will be implemented using simple javascript without any libraries. It should alert the user if any information entered is wrong or forgotten.
+		Responsible: Simen Johansen</p>
+		</li>
+
+		<li>
+		<b>Function2:</b> Open mail client with entered text<br />
+		<b>Function name:</b> openMailClient()<br />
+		<b>File:</b> js/formValidation.js<br />
+		<p>This function shall open the users mail client so that the text entered in the contactform automatically fills the “new-mail”-box.
+		Responsible: Simen Johansen</p>
+		</li>
+
+		<li>
+		<b>Function3:</b> Image rollover<br />
+		<b>Function name:</b> imageRollover()<br />
+		<b>File:</b> js/rollover.js<br />
+		<p>When the user hovers over the active image on index.html (Hjem) the image shall be slightly dimmed and a short overlaying heading and text describing what the image represents shall be displayed.<br />
+		Responsible: Edvard Sjøblom</p>
+		</li>
+		<li>
+		<b>Function4:</b> Highlight hovered table row<br />
+		<b>Function name:</b> highlightTableRow()<br />
+		<b>File:</b> js/tableHighlighting.js<br />
+		<p>Under pricelist.html when a user hovers over a table row, it shall be highlighted to make it clearer.
+		Responsible: Egil Uggerud</p>
+		</li>
+		</ul>
+
+		<h3>Javascript functions using external libraries</h3>
+		<ul>
+			<li>
+		<b>Function5:</b> Navigation scroll<br />
+		<b>Function name(s):</b> unknown<br />
+		<b>Library:</b> js/jquery.js<br />
+		<p>When the page is scrolled 200px+ downwards the menu and logo shall be transformed to a smaller navigation bar. The logo will now only show Spa Thai (not Andestad). The background also changes with this effect (see navigation section). The nav-bar will now always be present at the top of the page no matter how far down the user scrolls.
+		Responsible: Simen Johansen and Edvard Sjøblom</p>
+		</li>
+
+	<li>
+		<b>Function5:</b> Slideshow<br />
+		<b>Function name(s):</b> unknown<br />
+		<b>Library:</b> js/jquery.js<br />
+		<p>The slideshow on the frontpage shall change the displayed image with an animation  when a user either clicks the lef/right-arrows next to the image or the small indication icons below the image.
+		Responsible: Cornelius Dahling</p>
+	</li>
+</ul>
+
+		</div>
+	</div>
+
+
+	<div class="disp disp1">
+		<div class="content_divs">
+			<h2>Plan</h2>
+			<p>The website is directly based on the ensuing file structure and our work divison / deadlines will be completed as shown in below. This helps us organize our workload and gives each one in the group a clear overview of what they have to do.</p>
+
+			<h3>Folder structure</h3>
+				<pre>
+	html/
+		index.html
+		treatments.html
+		products.html
+		pricelist.html
+		about.html
+
+	css/
+		style.css
+
+	js/
+		navigationScroll.js
+		slideshow.js
+		formValidation.js
+		tableHighlighting.js
+		rollover.js
+		jquery.js (external lib)
+
+	modularity/
+		header.part
+		footer.part
+
+	images/
+		spthai.png
+		facetreatment.png
+		massage.png
+		oilmassage.png
+		footmassage.png
+		hotstonemassage.png
+		pedicure.png
+		manicure.png
+		sauna.png
+		products.png
+</pre>
+	<h3>Work divison and deadlines</h3>
+			<table>
+  <tbody>
+    <tr>
+      <th>Filename</th>
+      <th>Description</th>
+      <th>Assigned to</th>
+      <th>Due</th>
+    </tr>
+    <tr>
+      <td>index.html</td>
+      <td>The homepage</td>
+      <td>Edvard</td>
+      <td>27.10.2015</td>
+    </tr>
+    <tr>
+      <td>treatments.html</td>
+      <td>Type of treatments Spa Thai offers</td>
+      <td>Egil</td>
+      <td>31.10.2015</td>
+    </tr>
+    <tr>
+      <td>products.html</td>
+      <td>The different type of products that Spa Thai sell</td>
+      <td>Cornelius</td>
+      <td>26.10.2015</td>
+    </tr>
+    <tr>
+      <td>pricelist.html</td>
+      <td>An overview of Thai Spa's prices</td>
+      <td>Simen</td>
+      <td>02.11.2015</td>
+    </tr>
+    <tr>
+      <td>about.html</td>
+      <td>Basic information about Spa Thai</td>
+      <td>Eirik</td>
+      <td>05.11.2015</td>
+    </tr>
+    <tr>
+      <td>style.css</td>
+      <td>CSS that contains all the styling for the website</td>
+      <td>Everyone</td>
+      <td>09.11.2015</td>
+    </tr>
+    <tr>
+      <td>navigationScroll.js</td>
+      <td>Changes the navigation bar when the user starts scrolling</td>
+      <td>Edvard, Eirik</td>
+      <td>01.11.2015</td>
+    </tr>
+    <tr>
+      <td>slideshow.js</td>
+      <td>The animation of the image transition on the homepage</td>
+      <td>Cornelius</td>
+      <td>25.10.2015</td>
+    </tr>
+    <tr>
+      <td>formValidation.js</td>
+      <td>Validates the text input on about.html and makes sure for example the email is formatted properly.</td>
+      <td>Simen</td>
+      <td>03.11.2015</td>
+    </tr>
+    <tr>
+      <td>tableHighlighting.js</td>
+      <td>Under pricelist.html when a user hovers over a table row, it shall be highlighted to make it clearer.</td>
+      <td>Egil</td>
+      <td>29.10.2015</td>
+    </tr>
+    <tr>
+      <td>rollover.js</td>
+      <td>When the user hovers over the active image on index.html (Hjem) the image shall be slightly dimmed and a short overlaying heading and text describing what the image represents shall be displayed.</td>
+      <td>Edvard</td>
+      <td>28.10.2015</td>
+    </tr>
+  </tbody>
+</table>
+		</div>
+	</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cornelius' Side</title>
+<link rel="stylesheet" type="text/css" href="../Main.css">
+<script src="jquery-2.1.1.js" type="text/javascript"></script>
+</head>
+<body>
+<header>Velkommen til min side</header>
+<nav>
+	<ul>
+	<li><a href="../Linkorama/Linkorama.html">Linkorama</a></li>
+	<li><a href="../Timetable/Timetable.html">Timetable</a></li>
+	</ul>
+</nav>
+<section>
+<ul id='meny'>
+<li>Link to homework #1</li>
+<li class='knapp'>Link to homework #2
+	<ol class='submeny'>
+		<li><a href="Oving2/Me/me.html">Cornelius Grieg Dahling</a></li>
+		<li><a href="Oving2/Linkorama/Linkorama.html">Linkorama</a></li>
+		<li><a href="Oving2/Timetable/Timetable.html">Timetable</a></li>
+		<li><a href="Oving2/Sidekart/Sidekart.html">Sidekart til IME</a></li>
+		<li><a href="Oving2/Palsu%20Industries/index.html">Palsu Industries</a></li>
+		<li><a href="Oving2/Gloshaugen/Gloshaugen.html">Gløshaugen info pages</a></li>
+		<li><a href="2">View files</a></li>
+	</ol>
+</li>
+<li class='knapp'>Link to homework #3
+	<ol class='submeny'>
+		<li><a href="../../../Oving3/Gloshaugen%20endre%20font/nettsider/Gloshaugen.html">Font og farger</a></li>
+		<li><a href="../../../Oving3/Boxes/positioning.html">Posisjonering</a></li>
+		<li><a href="../../../Oving3/Offline/site.html">Offline artikkel</a></li>
+		<li><a href="../../../Oving3/Gloshaugen%20konsist%20utseende/nettsider/Gloshaugen.html">Konsist utseende</a></li>
+		<li><a href="../../../Oving3/Oppgave%205/Assignments/Assignments.html">Samme CSS forskjellig HTML</a></li>
+		<li><a href="../../../3">View files</a></li>
+	</ol>
+</li>
+<li class='knapp'>Link to homework #4
+	<ol class='submeny'>
+		<li><a href="4">View files</a></li>
+	</ol>
+</li>
+<li class='knapp'>Link to homework #5
+	<ol class='submeny'>
+		<li><a href="5">View files</a></li>
+	</ol>
+</li>
+<li class='knapp'>Link to homework #6
+	<ol class='submeny'>
+		<li><a href="6">View files</a></li>
+	</ol>
+</li>
+<li class='knapp'>Link to homework #7
+	<ol class='submeny'>
+		<li><a href="7">View files</a></li>
+	</ol>
+</li>
+<li class='knapp'>Link to homework #8
+	<ol class='submeny'>
+		<li><a href="8">View files</a></li>
+	</ol>
+</li>
+<li class='knapp'>Link to homework #9
+	<ol class='submeny'>
+		<li><a href="9">View files</a></li>
+	</ol>
+</li>
+</ul>
+</section>
+<footer>
+<p>Laget av Cornelius</p>
+</footer>
+<script>
+	 $(document).ready(function()
+		{
+			$(".knapp").on('click', function showSubMenu(){
+			$(event.target.firstChild.nextSibling).slideToggle('fast', function(){});
+			});
+		showSubMenu();
+		});
+</script>
+</body>
+</html>

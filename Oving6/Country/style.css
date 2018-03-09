@@ -1,0 +1,22 @@
+country_info{
+	display: table;
+	border-spacing: 30px;
+	position: relative;
+	margin: auto;
+	border: 1px solid;
+}
+
+country, capital, population, area{
+	display: table-cell;
+}
+
+sup{
+	font-size: xx-small; 
+	vertical-align: super;
+}
+
+title{
+	font-weight: bold;
+	font-size: 13pt;
+	display: table-cell;
+}

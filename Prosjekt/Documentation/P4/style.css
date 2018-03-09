@@ -1,0 +1,65 @@
+body {
+	margin:0;
+	padding: 0;
+	font-family: sans-serif;
+	color: #575757;
+}
+
+#bodyDiv {
+	width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Century Gothic', Tahoma, sans-serif;
+	font-weight: 100;
+	margin-bottom: 0px;
+	padding: 0;
+}
+
+li {
+	margin-bottom:30px;
+}
+
+
+#participants {
+	font-size: 14px;
+
+}
+
+.disp {
+	padding: 60px 0 60px 0;
+	width: 100%;
+	display: block;
+	border-top: 1px solid #e3e3e3;
+	line-height: 25px;
+}
+
+.first {
+	background-color: #2D3B47;
+	color: #fff;
+	font-family: sans-serif;
+}
+
+.first h1 {
+	font-weight: 100;
+}
+
+.disp2 {
+	background: #f5f7f7;
+}
+
+.disp1 {
+	background-color: #fff;
+}
+
+.disp1 img {
+	float: left;
+	margin-right: 20px;
+	margin-top: 15px;
+	border-radius: 3px;
+}
+
+.content_divs {
+	width: 800px;
+	margin: 0 auto;
+}

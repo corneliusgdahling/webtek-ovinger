@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>IT-Bygget</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="../style.css">
+<body>
+		<h1>IT-Bygget</h1>
+		<img src='../bilder/itbygget.jpg'><br>
+		<br><p>Tegnet av Herman Krag. IT-Bygget huser institutt for datateknikk og informasjonsvitenskap.</p>
+<h2>Områder på Gløshaugen</h2>
+<ul>
+	<li><a href='Hovedbygg.html'>Hovedbygget</a></li>
+	<li><a href='Realfag.html'>Realfagbygget</a></li>
+	<li><a href='Høgskoleringen.html'>Høgskoleringen 3 (P15)</a></li>
+	<li><a href='Fysikk.html'>Gamle Fysikk</a></li>
+	<li><a href='IT.html'>IT-Bygget</a></li><br><br>
+	<li><a href='Gloshaugen.html'>Tilbake til hovedsiden</a></li>
+</ul>
+<h3><a href='Gloshaugen.html'>|    Neste</a></h3>
+<h4><a href='Fysikk.html'>Forrige</a></h4>
+	</body>
+</html>

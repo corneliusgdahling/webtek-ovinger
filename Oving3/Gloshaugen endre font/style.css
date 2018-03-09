@@ -1,0 +1,42 @@
+h1{
+	font-family: Helvetica, sans-serif;
+}
+
+h2{
+	position: fixed;
+	top: 5%;
+	left:67%;
+	font-family: Helvetica, sans-serif;
+}
+
+ul{
+	position: fixed;
+	top: 16%;
+	left: 69%;
+}
+
+h3{
+	font-size: 12pt;
+	position: fixed;
+	top: 59.5%;
+	left: 76.1%;
+}
+
+h4{
+	position: fixed;
+	top: 58.65%;
+	left: 71.8%;
+	font-size: 12pt;
+}
+
+p{
+	font-family: Georgia, serif;
+}
+
+a:hover{
+	font-family: Arial, sans-serif;
+}
+
+body{
+	background-color: #bbc4ef;
+}

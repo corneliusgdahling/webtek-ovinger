@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Graphics and animation using HTML5 Canvas</title>
+    <style>
+        #the-canvas { border: 1px dashed gray }
+    </style>
+    <script>
+        addEventListener('load', function() {
+            var angle = 0;
+            var originalX = 200;
+            var originalY = 150;
+            var step = 0.09;
+            var canvas = document.getElementById('the-canvas');
+            var context = canvas.getContext("2d");
+
+            context.beginPath();
+            context.arc(50, 50, 40, 0, 2*Math.PI, true);
+            context.fillStyle = "#FF0000";
+            context.fill();
+
+            context.rect(400,300,80,80);
+            context.fillStyle = "#2474ff";
+            context.fillRect(400,300,80,80);
+
+            function changeAngle() {
+                angle += step;
+                if (angle >= 360){
+                    angle = 0;
+                }
+                var newx = originalX  + 100*Math.cos(angle);
+                var newy = originalY  + 100*Math.sin(angle);
+                context = canvas.getContext('2d');
+                var image = new Image();
+                image.onload = function () {
+                    context.drawImage(image, newx, newy);
+                    context.beginPath();
+                    context.arc(50, 50, 40, 0, 2*Math.PI, true);
+                    context.fillStyle = "#FF0000";
+                    context.fill();
+
+                    context.rect(400,300,80,80);
+                    context.fillStyle = "#2474ff";
+                    context.fillRect(400,300,80,80);
+                };
+                image.src = 'doge.jpg';
+            }
+            window.setInterval(function(){
+                changeAngle();
+                context.clearRect(0, 0, canvas.width, canvas.height);
+            }, 15);
+        });
+    </script>
+</head>
+<body>
+    <canvas id="the-canvas" width="500" height="400">
+        Your browser does not support the &lt;canvas&gt; element.
+    </canvas>
+</body>
+</html>

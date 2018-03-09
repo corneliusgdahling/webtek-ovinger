@@ -1,0 +1,72 @@
+table{
+	position: relative;
+	border: 1px solid black;
+	width: 75%;
+	top: 30px;
+	height: 450px;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+td, tr{
+	border: 1px solid;
+	border-color: #000000;
+	width: 50px;
+	height: 30px;
+}
+
+th{
+	width: 115px;
+	height: 40px;
+	background-color: #C0C0C0;
+}
+
+#kolen{
+	width: 14%;
+	font-size: 13pt;
+}
+
+#webtek{
+	background-color: #AFC5D0;
+}
+
+#Datadig{
+	background-color: #FFB74D;
+}
+
+#algdat{
+	background-color: #8BC34A;
+}
+
+#prosjekt{
+	background-color: #FFCADF;
+}
+
+.shade{
+	background-color: #E0E0E0;
+}
+
+p{
+	left: 40%;
+}
+
+.info{
+	position: absolute;
+	top: 570px;
+	left: 165px;
+	width: 74%;
+}
+
+#tittel{
+	display: inline;
+	margin: 0 30px 30px 0;
+}
+
+#ultittel{
+	position: relative;
+	color: #000000;
+	font-size: 14.3pt;
+	top: 8px;
+	font-weight: 100;
+	text-align: center;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Graphics and animation using HTML5 Canvas</title>
+    <style>
+        #the-canvas { border: 1px dashed gray }
+    </style>
+    <script>
+        addEventListener('load', function() {
+            var canvas = document.getElementById('the-canvas');
+            var context = canvas.getContext("2d");
+            context.beginPath();
+            context.arc(160, 155, 40, 0, 2*Math.PI, true);
+            context.fillStyle = "#FF0000";
+            context.fill();
+
+            context.rect(330,230,120,120);
+            context.fillStyle = "#2474ff";
+            context.fillRect(330,230,120,120);
+        });
+    </script>
+</head>
+<body>
+    <canvas id="the-canvas" width="500" height="400">
+        Your browser does not support the &lt;canvas&gt; element.
+    </canvas>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<country_info>
+
+  <country_record>
+    <title>Country</title>
+    <title>Capital</title>
+    <title>Population</title>
+    <title>Area (km<sup>2</sup>)</title>
+  </country_record>
+
+  <country_record>
+    <country>Denmark</country>
+    <capital>Copenhagen</capital>
+    <population>5 602 628</population>
+    <area>43 561</area>
+  </country_record>
+
+  <country_record>
+    <country>Finland</country>
+    <capital>Helsinki</capital>
+    <population>5 426 674</population>
+    <area>338 534</area>
+  </country_record>
+
+  <country_record>
+    <country>Iceland</country>
+    <capital>Reykjavik</capital>
+    <population>321 857</population>
+    <area>103 440</area>
+  </country_record>
+
+  <country_record>
+    <country>Norway</country>
+    <capital>Oslo</capital>
+    <population>5 051 275</population>
+    <area>323 787</area>
+  </country_record>
+
+  <country_record>
+    <country>Sweden</country>
+    <capital>Stockholm</capital>
+    <population>9 555 893</population>
+    <area>447 420</area>
+  </country_record>
+
+</country_info>
+
+
+
+

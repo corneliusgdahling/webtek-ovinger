@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Innebyggde funksjoner</title>
+<script type="text/javascript">
+	window.addEventListener("load", coolStuff);
+	function coolStuff(){
+	 var liste = ["You've got to ask yourself a question: 'do I feel lucky?' Well, do ya, punk?", "I'm going to make him an offer he can't refuse.", "May the Force be with you.", "You talking to me?", "Show me the money!", "Hasta la vista, baby.", "Say “hello” to my little friend!", "You can't handle the truth!", "You're gonna need a bigger boat.", "He got me invested in some kinda fruit company."];
+	 var rand = Math.floor((Math.random() * 10));
+	 console.log(rand);
+	 document.getElementById('quote').innerHTML = liste[rand];
+	}
+</script>
+</head>
+<body>
+<center><h1 id="quote"></h1></center>
+</body>
+</html>

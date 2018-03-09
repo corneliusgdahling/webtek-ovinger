@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="undersokelse.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="undersokelse.js"></script>
+<title>Undersøkelse</title>
+</head>
+<body>
+<form action="http://www.idi.ntnu.no/~michailg/IT2805/form.php" method="post" id="form">
+  Name:<br>
+  <input required type="text" name="name">
+  <br>
+  Email:<br>
+  <input required type="text" name="email">
+  <br>
+  Address:<br>
+  <input type="text" name="address">
+  <br>
+  Contact number:<br>
+  <input type="text" name="phone">
+  <br>
+  <br>
+  <label>What year are you</label>
+  <br>
+  <select required name="year">
+  <option value="">Choose one</option>
+  <option value="1">1st year Freshman</option>
+  <option value="2">2nd year Sophmore</option>
+  <option value="3">3rd yearJunior</option>
+  <option value="4">4th year Senior</option>
+</select>
+<br>
+<br>
+ Start date:<br>
+  <input required type="date" name="startDate">
+  <br>
+  <br>
+  <fieldset id="checks" name="classes">
+                <legend>Which courses are you interested in?</legend><br>
+                        <input type="checkbox" class="checkboxes" name="ITX1001: HTML Basics" value="ITX1001" />ITX1001: HTML Basics <br /><br>
+                        <input type="checkbox" class="checkboxes" name="ITX1002: URLs and Site Structures" value="ITX1002" />ITX1002: URLs and Site Structures<br /><br>
+                        <input type="checkbox" class="checkboxes" name="ITX2001: Introduction to Cascading Style Sheets (CSS)" value="ITX2001" />ITX2001: Introduction to Cascading Style Sheets (CSS)<br /><br>
+                        <input type="checkbox" class="checkboxes" name="ABC1001: Working with Multimedia on the Web" value="ABC1001" />ABC1001: Working with Multimedia on the Web<br /><br>
+                        <input type="checkbox" class="checkboxes" name="JSX1000: Introduction to JavaScript" value="JSX1000" />JSX1000: Introduction to JavaScript<br /><br>
+                        <input type="checkbox" class="checkboxes" name="JSX1040: JavaScript: DOM" value="JSX1040" />JSX1040: JavaScript: DOM<br /><br>
+                        <input type="checkbox" class="checkboxes" name="XML1000: XML: Formatting Namespace Trees" value="XML1000" />XML1000: XML: Formatting Namespace Trees<br />
+
+        </fieldset>
+        <br>
+  <textarea name="comments" onfocus="clearContents(this)" rows="4" cols="50">
+  Please leave any other comments here.
+  </textarea>
+  <br>
+  <input id="knapp" type="submit" value="Submit">
+  <script type="text/javascript">
+  function clearContents(element) {
+  element.value = '';
+}</script>
+</form>
+</body>

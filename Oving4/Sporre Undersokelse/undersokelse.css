@@ -1,0 +1,23 @@
+form{
+	position: relative;
+	margin-left: 20%;
+	width: 200px;
+}
+
+fieldset{
+    position: relative;
+    left: 0;
+    border: none;
+}
+
+input:required:invalid, #checks, select{
+
+	border-style: solid;
+	border-color: red;
+}
+
+input:required:valid, select:required:valid{
+
+	border-style: solid;
+	border-color: green;
+}
